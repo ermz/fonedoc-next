@@ -12,7 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <nav>My Navbar</nav>
+        {children}
+      </body>
     </html>
   )
 }
